@@ -1,0 +1,490 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}*/
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
+
+body{
+    min-height: 1200px;
+    overflow-x: hidden;
+    background-color: rgba(248, 238, 238, 0.979);
+}
+.common_margin{
+    margin: 17px 0;
+}
+.cmn_margin{
+    margin-bottom: 50px;
+}
+header{
+    min-height: 30px;
+    background-color: #fcdb00;
+    
+}
+
+.custom_header{
+    padding: 0px;
+}
+
+.custom_nav{
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.custom_nav ul li a{
+    padding: 0px 30px;
+}
+/*.navbar{
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}*/
+
+.coustom_drop{
+   
+    
+}
+.coustom_drop a{
+    background-color: transparent !important;
+    border: none;
+}
+
+.banner{
+   /* overflow: hidden;*/
+    background-color:rgba(224, 221, 221, 0.911);
+}
+
+.img-container{
+    width: 110%;
+ height: 85%;
+ padding: 0;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+
+}
+.banner-title{
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    color: rgba(235, 124, 34, 0.836);
+    height: auto;
+    margin-top: 300px;
+}
+h1{
+    font-size: 3em;
+    font-family: "Shadows Into Light Two",sans-serif;
+}
+
+
+.img-banner{
+    width:1200px;
+ height: 85%;
+ padding: 0;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.img-title{
+    text-align: center;
+    position:absolute;
+    margin-top: 100px;
+    overflow-y: hidden;
+}
+h3{
+    font-family: cursive; 
+    font-size: 2em;
+    color: black;
+    text-decoration:underline white;
+    text-decoration-style: dotted;
+    overflow-y: hidden;
+}
+.kid_education{
+    min-height: 515px;
+background-image: url(../img/bluebanner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(175, 68, 68);
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    overflow-y: hidden;
+}
+
+
+.inspire_content{
+    margin-top: 50px;
+    text-align: justify;
+    font-family: cursive;
+    color:rgb(196, 63, 70);
+    z-index: 10;
+    padding-left: 80px;
+}
+.common_title{
+    margin-top: 50px;
+}
+.kid-study{
+    width: 110%;
+    height: 60%;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+.img-thumbnail{
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    background: rgb(231, 97, 97);
+}
+
+.thumbnail{
+    margin-top: 100px;
+    padding-top: 100PX;
+    transition: 0.5s;
+}
+.common_margin{
+    position:relative;
+}
+.our-education{
+    min-height: 515px;
+    background-image: url(../img/gray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.img-two-title{
+    text-align: center;
+    position:absolute;
+    margin-top: 100px;
+}
+h4{
+    font-family: cursive; 
+    font-size: 2em;
+    color: black;
+    padding: 20px;
+}
+.card_header{
+    background-color: #1EC0FF;
+    min-height: 39px;
+    
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    margin: 7px 0;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 0 1px 8px 3px #d4d4d5;
+    cursor: pointer;
+    
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -12px;
+}
+
+.card-title {
+    padding: 7px 0;
+    
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -18px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    border-radius: 50%;
+    right: 21px;
+    
+}
+
+.profile-avatar {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+.featured_course_btn{
+    width: 90%;
+    min-height: 43px;
+    font-size: 31px;
+    margin: 46px 48px;
+    border: none;
+    border-radius: 23px;
+    font-weight: 700;
+    background-color: #1EC0FF;
+    color: white;
+    
+}
+#memorible_moment{
+    min-height: 900px;
+    background-image: url(../img/memorible_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.custom_momment_nav{
+    color: white !important;
+}
+
+.memorible_img{
+    margin: 25px 0;
+    border-radius: 14px;
+    box-shadow: 0px 1px 7px 1px black;
+    position: relative;
+    z-index: 1;
+    
+}
+.stand_by{
+    min-height: 1200px;
+    background-image: url(../img/stand_by_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.twitter_logo{
+    padding-top: 100px;
+    padding-bottom: 11px;
+}
+
+.twitter_link{
+    
+}
+
+.stand_by_picture{
+    margin: 25px 0;
+    border-radius: 13px;
+    box-shadow: 0 0 7px 2px darkgrey;
+    
+}
+
+.stand_by_details{
+    margin-top: 22px;
+}
+
+.stand_by_details p{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    
+}
+
+
+
+.follow_me{
+    color: black;
+    text-decoration: underline;
+}
+
+.icon_color_fb{
+    color: blue;
+}
+
+.icon_color_twit{
+    
+}
+
+.icon_color_google{
+    color: red;
+}
+
+.icon_color_tumblr{
+    color: darkblue;
+}
+
+
+
+.achievement{
+    min-height: 400px;
+    background-image: url(../img/we_did.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.we_did_title{
+    color: #56D47E;
+    text-shadow: 0 5px 12px;
+    cursor: progress;
+}
+
+.achieve{
+    color: white;
+    cursor:  -webkit-grab;
+}
+
+
+
+
+.recent_timeline{
+    min-height: 892px;
+    background-color: rgba(248, 238, 238, 0.979);
+    
+}
+
+.event_details{
+    margin-top: 26px;
+}
+
+
+.event_commn_color{
+    color: #1EC0FF;
+    
+}
+
+.recent_news_underScore{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+ .recent_news_cmn_margin{
+    margin: 10px 0;
+} 
+
+.recent_news_cmn_img_shadw{
+    box-shadow: 0 0 7px 2px rgb(180, 175, 175);
+    border-radius: 12px; 
+} 
+
+
+
+.contact{
+    min-height: 600px;
+    background-image: url(../img/oposite_cloud.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contact_content{
+    margin-top: 200px;
+}
+.contact_title h3{
+    font-weight: 900;
+    text-shadow: 0px 2px 7px;
+}
+.contact_title p{
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-bottom: 34px;
+}
+
+footer{
+    min-height: 57px;
+    background-color: #FFD338;
+    overflow: hidden;
+}
+
+
+.footer_nav ul li{
+    list-style: none;
+    float: left;
+}
+.footer_nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
